@@ -5,8 +5,8 @@
 #include <ft2build.h>
 #include FT_FREETYPE_H
 
-#include <hb.h>
-#include <hb-ft.h>
+#include <harfbuzz/hb.h>
+#include <harfbuzz/hb-ft.h>
 
 // Copy the size of points and contours for the current glyph.
 void get_glyph_outline_sizes(
